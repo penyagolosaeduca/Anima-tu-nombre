@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Rotar | Empezando con Scratch </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Helena Brau Bou" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script type="text/javascript">
+// HACKeXe - https://hackexe.tiddlyhost.com/
+// Script de protección de contenido
+
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+
+document.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && (e.key === 'c' || e.key === 'v')) {
+        e.preventDefault();
+    }
+});
+
+// Evitar selección de texto
+document.addEventListener('selectstart', function(e) {
+    e.preventDefault();
+});
+
+// Evitar arrastre de imágenes
+document.addEventListener('dragstart', function(e) {
+    e.preventDefault();
+});
+
+// Evitar Ctrl-A (seleccionar todo)
+document.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.key === 'a') {
+        e.preventDefault();
+    }
+});
+</script></head>
+<body class="exe-web-site" id="exe-node-63"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Empezando con Scratch</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Anima tu nombre</a></li>
+   <li><a href="cambiar_color.html" class="no-ch">Cambiar color</a></li>
+   <li id="active"><a href="rotar.html" class="active no-ch">Rotar</a></li>
+   <li><a href="reproducir_sonido.html" class="no-ch">Reproducir sonido</a></li>
+   <li><a href="bailar.html" class="no-ch">Bailar</a></li>
+   <li><a href="cambiar_tamao.html" class="no-ch">Cambiar tamaño</a></li>
+   <li><a href="presiona_una_tecla.html" class="no-ch">Presiona una tecla</a></li>
+   <li><a href="deslizar_alrededor.html" class="no-ch">Deslizar alrededor</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="cambiar_color.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="reproducir_sonido.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Rotar</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id189">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Objetivo</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta189_184_2" class="block iDevice_content">
+<div class="exe-text"><p><strong>OBJETIVO:</strong> Haz que una letra rote cuando la pulses.</p>
+<p style="text-align: center;"><img src="Rotar_FINAL.gif" alt="Rotar FINAL gif" title="Rotar FINAL gif" width="764" height="560" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id190">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Preparación</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta190_180_2" class="block iDevice_content">
+<p><img src="8-Preparacion_rotar.png" alt="Preparación Rotar" title="Preparación Rotar" width="794" height="397" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<hr />
+<p style="text-align: center;"></p>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 19.2462%; vertical-align: top;"><img src="9-Elegir_letra_rotar.png" alt="Elige letra Rotar" title="Elige letra Rotar" width="112" height="300" style="display: block; margin-left: auto; margin-right: auto; vertical-align: top;" /></td>
+<td style="width: 80.7538%; text-align: center;"><img src="Elegir_letra_Rotar.gif" alt="Elige letra Rotar gif" title="Elige letra Rotar gif" width="1346" height="619" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id191">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Programa</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta191_181_2" class="block iDevice_content">
+<p style="text-align: center;"><img src="10-Programa_Rotar.png" alt="Programa Rotar" title="Programa Rotar" width="794" height="397" /></p>
+<hr />
+<p style="text-align: justify;"></p>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 19.2462%; vertical-align: top;"><img src="11-Bloques_Rotar.png" alt="Bloques Rotar" title="Bloques Rotar" width="267" height="209" style="display: block; margin-left: auto; margin-right: auto; vertical-align: top;" /></td>
+<td style="width: 80.7538%; text-align: center;"><img src="Programa_Rotar.gif" alt="Programar Rotar gif" title="Programar Rotar gif" width="1345" height="596" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id192">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Prueba</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta192_182_2" class="block iDevice_content">
+<p style="text-align: center;"><img src="12-Probar_Rotar.png" alt="Probar Rotar" title="Probar Rotar" width="794" height="397" /></p>
+<hr />
+<p style="text-align: justify;"></p>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 19.2462%; vertical-align: top;"><img src="13-Pulsa_letra_Rotar.png" alt="Pulsa letra Rotar" title="Pulsa letra Rotar" width="183" height="163" style="display: block; margin-left: auto; margin-right: auto; vertical-align: top;" /></td>
+<td style="width: 80.7538%; text-align: center;"><img src="Pulsa_letra_Rotar.gif" alt="Pulsa letra Rotar gif" title="Pulsa letra Rotar gif" width="828" height="406" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id185">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Tip</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta185_193_2" class="block iDevice_content">
+<div class="exe-text"><p><img src="15-Tip_Rotar.png" alt="Tip Rotar" title="Tip Rotar" width="794" height="397" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<hr />
+<p style="text-align: center;"></p>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 19.2462%; vertical-align: top;"><img src="16_-_Bloque_Tip_Rotar.png" alt="Bloque Tip Rotar" title="Bloque Tip Rotar" width="332" height="125" style="display: block; margin-left: auto; margin-right: auto; vertical-align: top;" /></td>
+<td style="width: 80.7538%; text-align: center;"><img src="Programar_Tip_Rotar.gif" alt="Programar Tip Rotar gif" title="Programar Tip Rotar gif" width="1349" height="592" /></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="cambiar_color.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="reproducir_sonido.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
